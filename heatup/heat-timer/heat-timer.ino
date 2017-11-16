@@ -1,7 +1,7 @@
 #include <Servo.h>
 
 Servo myservo;
-long timeWait = 7;
+long timeWait = 5;
 unsigned long next_run = 0;
 
 /*when started at 12AM it waits timeWait minutes and then call servo_on() */
